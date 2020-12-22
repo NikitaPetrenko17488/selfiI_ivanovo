@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "807996366539",
+    "firebase_url": "https://selfiiivanovo-default-rtdb.firebaseio.com",
+    "project_id": "selfiiivanovo",
+    "storage_bucket": "selfiiivanovo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807996366539:android:4855adf8f4120ad5c3054e",
+        "android_client_info": {
+          "package_name": "com.example.selfii_ivanovo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807996366539-hcbb3ke68in3rgaia0gkim987hvoj63k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.selfii_ivanovo",
+            "certificate_hash": "92bc78d486cb06c3363e13ebe8ca1c7c658a0f94"
+          }
+        },
+        {
+          "client_id": "807996366539-llv7i0on4p8f2j2eobdld2tr025uh2hu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCapKYlcbT3ZFuuXNMO6olpKwhh7BU2bJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807996366539-llv7i0on4p8f2j2eobdld2tr025uh2hu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

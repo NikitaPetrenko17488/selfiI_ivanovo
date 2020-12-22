@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.avtorizyFragment">
+
+    <TextView
+        android:id="@+id/textAvtorizy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text=" Авторизация "
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:layout_marginTop="125dp"
+        />
+
+   <EditText
+       android:id="@+id/editNumberAvtorizy"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       app:layout_constraintTop_toBottomOf="@id/textAvtorizy"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:layout_marginTop="32dp"
+       android:layout_marginStart="32dp"
+       android:layout_marginEnd="32dp"
+       android:textSize="20dp"
+       android:background="@drawable/ramka_edit_text"
+       android:inputType="phone"
+       android:hint=" Номер телефона "
+       android:text="+7"
+       android:gravity="center"
+       />
+
+    <EditText
+        android:id="@+id/editPasswordAvotizy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/editNumberAvtorizy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:textSize="20dp"
+        android:textColorHint="#717171"
+        android:background="@drawable/ramka_edit_text"
+        android:hint=" Пароль "
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnRegistryInAvtorizy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/editPasswordAvotizy"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:background="@null"
+        android:textSize="18dp"
+        android:text="Регистрация"
+        android:textAllCaps="false"
+        />
+
+    <ImageView
+        android:id="@+id/btnAvtorizy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/btnRegistryInAvtorizy"
+        app:layout_constraintBottom_toBottomOf="@id/btnRegistryInAvtorizy"
+       android:src="@drawable/next"
+        android:textAllCaps="false"
+        android:layout_marginEnd="32dp"
+
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

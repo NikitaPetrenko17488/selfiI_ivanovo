@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/routes_admin"
+    app:startDestination="@id/mainWindowAdminFragment">
+
+    <fragment
+        android:id="@+id/mainWindowAdminFragment"
+        android:name="com.example.selfii_ivanovo.fragments.mainWindowAdminFragment"
+        android:label="Главное окно Одмена"
+        tools:layout="@layout/fragment_main_window_admin" >
+        <action
+            android:id="@+id/action_mainWindowAdminFragment_to_settingsAdminFragment"
+            app:destination="@id/settingsAdminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsAdminFragment"
+        android:name="com.example.selfii_ivanovo.fragments.settingsAdminFragment"
+        android:label="Настройки Одмена"
+        tools:layout="@layout/fragment_settings_admin" />
+</navigation>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.settingsAdminFragment">
+
+    <Button
+        android:id="@+id/btnExitAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/megaoval_anim"
+        android:text=" Выход "
+        android:textAllCaps="false"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textCounterUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Кол-во юзеров: "
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/chooseWinner"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textCounterUsers"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Определить победителя "
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/megaoval_anim"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="5dp"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="@id/updateSwipe"
+        app:layout_constraintBottom_toBottomOf="@id/updateSwipe"
+        app:layout_constraintStart_toEndOf="@id/updateSwipe"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/reload"
+        />
+
+    <Button
+        android:id="@+id/updateSwipe"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/chooseWinner"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Обновить базу свайпов "
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:background="@drawable/megaoval_anim"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="5dp"
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="@id/chooseWinner"
+        app:layout_constraintBottom_toBottomOf="@id/chooseWinner"
+        app:layout_constraintStart_toEndOf="@id/chooseWinner"
+        android:src="@drawable/crown"
+        android:layout_marginStart="16dp"
+
+        />
+
+    <Button
+        android:id="@+id/updateCounterUsers"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/updateSwipe"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Перерасчет кол-ва юзеров"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/megaoval_anim"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="5dp"
+
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="@id/updateCounterUsers"
+        app:layout_constraintBottom_toBottomOf="@id/updateCounterUsers"
+        app:layout_constraintStart_toEndOf="@id/updateCounterUsers"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/calculator"
+
+        />
+
+    <Button
+        android:id="@+id/wrappingSwipe"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/updateCounterUsers"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text=" Накрутить малясь "
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="@drawable/megaoval_anim"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:padding="5dp"
+
+        />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintTop_toTopOf="@id/wrappingSwipe"
+        app:layout_constraintBottom_toBottomOf="@id/wrappingSwipe"
+        app:layout_constraintStart_toEndOf="@id/wrappingSwipe"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/warning"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/routes_main"
+    app:startDestination="@id/mainWindowFragment">
+    <fragment
+        android:id="@+id/mainWindowFragment"
+        android:name="com.example.selfii_ivanovo.fragments.mainWindowFragment"
+        android:label="Селфи Иваново"
+        tools:layout="@layout/fragment_main_window" />
+    <fragment
+        android:id="@+id/profileUserFragment"
+        android:name="com.example.selfii_ivanovo.fragments.profileUserFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile_user" />
+    <fragment
+        android:id="@+id/top20WinnersFragment"
+        android:name="com.example.selfii_ivanovo.fragments.top20WinnersFragment"
+        android:label="Победители"
+        tools:layout="@layout/fragment_top20_winners" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.selfii_ivanovo.fragments.settingsFragment"
+        android:label="Настройки"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/addSelfiFragment"
+        android:name="com.example.selfii_ivanovo.fragments.addSelfiFragment"
+        android:label="fragment_add_selfi"
+        tools:layout="@layout/fragment_add_selfi" />
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mainWindowFragment"
+        android:title="Селфи" />
+
+    <item
+        android:id="@+id/profileUserFragment"
+        android:title="Мой профиль" />
+    <item
+        android:id="@+id/top20WinnersFragment"
+        android:title="Победители" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:title="Настройки" />
+
+</menu>
